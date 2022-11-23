@@ -5,11 +5,11 @@ import {
   Heading,
   Text,
   Stack,
-  Image,
   Button,
 } from "@chakra-ui/react";
 import { FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Card = ({ image, label, brand, price, link }) => {
   return (
@@ -26,7 +26,11 @@ export const Card = ({ image, label, brand, price, link }) => {
         zIndex={1}
       >
         <Box
-          rounded={"lg"}
+          rounded="lg"
+          overflow="hidden"
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
           mt={-12}
           pos={"relative"}
           height={"230px"}
@@ -44,10 +48,9 @@ export const Card = ({ image, label, brand, price, link }) => {
           }}
         >
           <Image
-            rounded="lg"
-            height={230}
-            width="100%"
-            objectFit="cover"
+            width={350}
+            height={600}
+            style={{ objectFit: "cover", width: "100%", height: "100%" }}
             src={image}
             alt={`${brand} ${label}`}
           />
