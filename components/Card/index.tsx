@@ -6,6 +6,8 @@ import {
   Text,
   Stack,
   Button,
+  color,
+  theme,
 } from "@chakra-ui/react";
 import { FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
@@ -34,6 +36,7 @@ export const Card = ({ image, label, brand, price, link }) => {
           mt={-12}
           pos={"relative"}
           height={"230px"}
+          boxShadow={`0px 10px 38px -11px ${theme.colors.teal[500]}`}
           _after={{
             transition: "all .3s ease",
             content: '""',
