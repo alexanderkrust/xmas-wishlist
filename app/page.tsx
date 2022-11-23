@@ -39,7 +39,7 @@ const cards = [
     brand: "Coyooco",
     label: "Kaffeewaage 2.0",
     price: "51,99 EUR",
-    link: "https://www.amazon.de/Wilson-American-Mischleder-Offizielle-WTF1825XBBRS/dp/B08BZX1BL2/ref=sr_1_5?keywords=wilson%2Bfootball&qid=1669227082&sprefix=wilson%2Bfoot%2Caps%2C112&sr=8-5&th=1&psc=1",
+    link: "https://www.roastmarket.de/coyooco-kaffeewaage-2-0.html",
   },
 ];
 
