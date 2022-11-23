@@ -17,7 +17,7 @@ export const Card = ({ image, label, brand, price, link }) => {
       <Box
         role={"group"}
         p={6}
-        maxW={"330px"}
+        maxW={["full", "80vw", "350px"]}
         w={"full"}
         bg={useColorModeValue("white", "gray.800")}
         boxShadow={"2xl"}
@@ -39,22 +39,17 @@ export const Card = ({ image, label, brand, price, link }) => {
             top: 5,
             left: 0,
             backgroundColor: "teal.200",
-            /* backgroundImage: `url(${image})`, */
             filter: "blur(20px)",
             zIndex: -1,
           }}
-          /* _groupHover={{
-            _after: {
-              filter: "blur(20px)",
-            },
-          }} */
         >
           <Image
-            rounded={"lg"}
+            rounded="lg"
             height={230}
-            width={282}
-            objectFit={"cover"}
+            width="100%"
+            objectFit="cover"
             src={image}
+            alt={`${brand} ${label}`}
           />
         </Box>
         <Stack pt={10} align={"center"}>
