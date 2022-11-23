@@ -44,7 +44,7 @@ const cards = [
 export const ItemGallery = () => {
   return (
     <Container maxW="7xl">
-      <Heading size="4xl" fontWeight="black" paddingY="12">
+      <Heading size="4xl" fontWeight="black" paddingTop="20" paddingBottom="16">
         Alex&apos;s Wishlist ✨🎅🎄
       </Heading>
       <SimpleGrid columns={[1, 1, 2, 3]} spacingX="30px">

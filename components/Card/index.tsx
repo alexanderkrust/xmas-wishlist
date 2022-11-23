@@ -13,7 +13,7 @@ import { FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
 import Image from "next/image";
 
-export const Card = ({ image, label, brand, price, link }) => {
+export const Card = ({ image, label, brand, price = null, link }) => {
   return (
     <Center py={12}>
       <Box
