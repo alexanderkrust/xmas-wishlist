@@ -38,7 +38,7 @@ export const ItemGallery = () => {
   return (
     <Container maxW="7xl">
       <Heading size="4xl" fontWeight="black" paddingY="12">
-        Alex&apos;s Wishlist 🎅
+        Alex&apos;s Wishlist ✨🎅🎄
       </Heading>
       <SimpleGrid columns={[1, 1, 2, 3]} spacingX="30px">
         {cards.map((card) => (
