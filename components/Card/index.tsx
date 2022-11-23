@@ -62,7 +62,7 @@ export const Card = ({ image, label, brand, price, link }) => {
           <Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
             {brand}
           </Text>
-          <Heading fontSize={"2xl"} fontFamily={"body"} fontWeight={500}>
+          <Heading fontSize={"2xl"} fontFamily={"body"} fontWeight={600}>
             {label}
           </Heading>
           <Stack direction={"row"} align={"center"}>
@@ -73,6 +73,7 @@ export const Card = ({ image, label, brand, price, link }) => {
           <Stack>
             <Button
               marginTop="4"
+              marginBottom="4"
               colorScheme="teal"
               rightIcon={<FiArrowRight />}
               _hover={{
