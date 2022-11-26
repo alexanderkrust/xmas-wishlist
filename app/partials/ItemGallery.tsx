@@ -46,6 +46,13 @@ const cards = [
     /* price: "55,99 EUR", */
     link: "https://www.amazon.de/Sidorenko-Tischunterlage-Oberfl%C3%A4che-Geschwindigkeit-Fransenfreie/dp/B07CBHX4DB/ref=sr_1_3?keywords=gro%C3%9Fes+mauspad&qid=1669368653&sprefix=gro%C3%9Fes+maus%2Caps%2C101&sr=8-3",
   },
+  {
+    image: "/images/bademantel.webp",
+    brand: "ellesse",
+    label: "Bademantel in Schwarz",
+    /* price: "55,99 EUR", */
+    link: "https://www.asos.com/de/ellesse/ellesse-bademantel-in-schwarz-mit-kapuze/prd/201109437",
+  },
 ];
 
 export const ItemGallery = () => {
