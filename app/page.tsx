@@ -1,7 +1,7 @@
 "use client";
 
 import { Box, ChakraProvider } from "@chakra-ui/react";
-import { ItemGallery } from "./partials/ItemGallery";
+import { ItemGallery } from "./partials/item-gallery";
 import Snowfall from "react-snowfall";
 
 const Page = () => {
